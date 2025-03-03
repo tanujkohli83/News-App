@@ -1,16 +1,62 @@
-# news_app
 
-A new Flutter project.
+# News App
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+The News App is a Flutter-based mobile application that provides users with the latest news from various sources. The app features a Pinterest-style grid view, offering a visually engaging experience while displaying news articles. It is designed as a single-screen UI, ensuring a seamless and user-friendly experience.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Features
+
+* Fetches real-time news articles using an API.
+
+* Displays articles in a Pinterest-style grid view.
+
+* Simple and elegant single-screen UI.
+
+* Supports images, headlines, and brief descriptions of articles.
+
+* Click on an article to read the full content in a web browser.
+## Tech Stack
+
+**Frontend:** Flutter
+
+**Backend:** RestFul API
+
+
+## Installation
+
+Install my-project with Flutter
+
+```bash
+  git clone https://github.com/yourusername/news-app.git
+```
+
+```bash
+  cd news-app
+```
+
+```bash
+  flutter pub get
+```
+
+```bash
+  flutter run
+```
+    
+## API Integration
+
+* Sign up for a News API (e.g., NewsAPI.org) and obtain an API key.
+
+* Add the API key in the Flutter project 
+
+* The app fetches news data and displays it in the grid layout.
+
+
+
+## Screenshots
+
+![App Screenshot](https://ibb.co/mVk3mLsn)
+![App Screenshot](https://ibb.co/XkLw6hTs)
+
